@@ -1,0 +1,47 @@
+header {
+	width:100%;
+	height:60px;
+	background: blue;
+	border:1px black solid;
+}
+
+header > h1	{
+	margin-left:13px;
+	color:#000000;
+	text-align: center;
+}
+
+#navi {
+	width:100%; 
+	background-color:#00FF00;
+	border:2px black solid;
+	height: 28px;
+	color: #FF0000;
+
+}
+
+#navi ul li {
+	display:inline;
+
+}
+
+#navi {
+	width:900px; 
+	margin: 0px auto; 
+	color:#FF0000;
+	text-align:center;
+	padding:20px;	
+}
+#navi ul li a, #navi ul li a:visited {
+	text-decoration:none; 
+	line-height: 28px; 
+	padding: 0px 10px; 
+	display:inline-block;
+}
+
+#navi ul li a:hover, #navi ul li a:focus {
+	color:#FF0000;
+	background-color:#0000FF;
+}
+
+

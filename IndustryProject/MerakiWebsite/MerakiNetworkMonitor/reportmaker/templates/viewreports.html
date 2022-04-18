@@ -1,0 +1,27 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>Report Options</title>
+    </head>
+    <body>
+
+	
+		<h1>Select An Option</h1>
+		<a class="btn btn-primary" href="/" role="button">Return To Home</a>
+		<br>
+		<br>
+		<a class="btn btn-primary btn-lg btn-block" href="bymac" role="button">View All By MAC Address or Nickname</a>
+		<br>
+		<a class="btn btn-primary btn-lg btn-block" href="byaccess" role="button">View All By Access Point</a>
+		<br>
+		<a class="btn btn-primary btn-lg btn-block" href="bysite" role="button">View Top Site Visits By MAC</a>
+		<br>
+		<a class="btn btn-primary btn-lg btn-block" href="bydownloadupload" role="button">View Uploads and Downloads by MAC</a>
+		<br>
+    </body>
+	
+</html>

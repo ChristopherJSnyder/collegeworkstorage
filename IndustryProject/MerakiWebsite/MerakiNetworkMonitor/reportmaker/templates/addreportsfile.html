@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>Report Homepage</title>
+    </head>
+    <body>
+	
+	<div class="alert alert-info" role="alert">
+		Note: When loading large files such as an entire day's logs the site will take a while to process the perhaps thousands of entries. Please be patient!
+	</div>
+	<form enctype="multipart/form-data" method="POST" class="ReportUploadForm" action = "handlereportsfile">
+		{% csrf_token %}
+		{{form}}
+    <button type="submit" class="save btn btn-default">Submit</button>
+	</body>
+
+	
+</html>

@@ -1,0 +1,43 @@
+body {
+	width: 500;
+	height: 350;
+    background-image: url(Images/silver.png), url(Images/stars.jpg);
+    background-position: left, bottom;
+    background-repeat: no-repeat, repeat;
+}
+
+legend {
+	font-weight: bold;
+	color: #000000;
+	background-color: #A9A9A9
+}
+
+label {
+	color: #0000FF
+	
+}
+
+fieldset {
+	width: 1400px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+	
+#Personal {
+	background-color: beige;
+
+}
+
+#Survey
+{
+	background-color: beige;
+}
+
+input, textarea {
+	background-color: gray;
+	
+}
+
+button {
+	background-color: grey;
+}

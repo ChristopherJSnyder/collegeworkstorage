@@ -1,0 +1,40 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>Success!</title>
+    </head>
+    <body>
+	<h2>Showing latest {{ entries}} entries for {{ device }} in the past {{days}} days </h2>
+	
+		<table>
+			<tr>
+				<th>Date</th>
+				<th>MAC Address</th>
+				<th>Website Accessed</th>
+				<th>Source IP</th>
+				<th>Destination IP</th>
+				<th>Download</th>
+				<th>Upload</th>
+			<tr>
+		{% for report in reports %}
+			<tr>
+				<td>{{report.date}}</td>
+				<td>{{report.mac}}</td>
+				<td>{{report.site}}</td>
+				<td>{{report.source}}</td>
+				<td>{{report.destination}}</td>
+				<td>{{report.download}}</td>
+				<td>{{report.upload}}</td>
+			</tr>
+			{% empty %}
+				<h1>No entries found for device named {{device}}!</h1>
+		{% endfor %}
+		</table>
+	</body>
+
+	
+</html>

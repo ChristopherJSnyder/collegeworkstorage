@@ -1,0 +1,31 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>MAC Nicknames</title>
+    </head>
+    <body>
+	
+		<h1>An assigned Mac nickname can be used instead of an address whenever searching by MAC</h1>
+		<table style = "width: 50%">
+			<tr>
+				<th>MAC</th>
+				<th>Associated Nickname</th>
+			<tr>
+			{% for macname in macnames %}
+			<tr>
+				<td>{{ macname.mac }} </td>
+				<td> {{ macname.nickname }} </td>
+			<tr>
+			{% endfor %}
+			
+		</table>
+		<a class="btn btn-primary" href="/" role="button">Return To Home</a>
+		<a class="btn btn-primary" href = "nickbulk" role = "button">Edit Nicknames</a>
+	</body>
+
+	
+</html>

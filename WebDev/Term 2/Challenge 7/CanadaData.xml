@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<CanadaData>
+	<DateOfSurvey>2002-01-01</DateOfSurvey>
+	<GDP currency="USD">29,400</GDP>
+	<Exports currency="USD" measure="billions">260.5</Exports>
+	<Imports currency="USD" measure="billions">229</Imports>
+	<ElectricityProduction measure="kWh">576.22 billion</ElectricityProduction>
+	<ElectricityConsumption measure="kWh">499.77 billion</ElectricityConsumption>   
+	<ElectricityExports measure="kWh">48.802 billion</ElectricityExports>   
+	<BirthRate per="1000">11.09</BirthRate>
+	<population>31,902,268 </population>
+	<LifeExpectancy age="years">79.69</LifeExpectancy>
+	<PopulationGrowthRate>0.96%</PopulationGrowthRate>
+</CanadaData>

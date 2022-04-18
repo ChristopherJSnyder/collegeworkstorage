@@ -1,0 +1,112 @@
+h1, p {
+    color: black;
+	font-family: 'Playfair Display', serif;
+	text-shadow: 10px 10px 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+   padding-top: 300px;
+   background-image: url("https://images.pexels.com/photos/908284/pexels-photo-908284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+textarea {
+	white-space: pre-wrap;
+	resize: none;
+	width: 500px;
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+
+table, th, td {
+	border: 1px solid black;
+	text-align: center;
+	margin: auto;
+	background-color: gray;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+table a {
+	color: green;
+}
+
+
+h2 {
+	text-align: center;
+}
+
+
+.btn-default {
+	
+	position: relative;
+	left: 50%;
+	top: 50px;
+	border: 2px solid black;
+	
+}
+
+
+
+
+
+
+
+input {
+	
+	border: 2px solid black;
+    border-radius: 4px;
+	
+	
+}
+
+.NicknameBulk {
+	
+	text-align: center;
+	
+	
+}
+
+
+.NicknameBulk .btn {
+	
+	position: relative;
+	left: 0%;
+	
+
+	
+	
+}
+
+
+.Nickname {
+	
+	text-align: center;
+}
+
+
+.Nickname textarea {
+	
+	width: 300px;
+	height: 20px;
+}
+
+
+form {
+	
+	
+	position: static;
+	left: 50%;
+}
+
+
+
+
+

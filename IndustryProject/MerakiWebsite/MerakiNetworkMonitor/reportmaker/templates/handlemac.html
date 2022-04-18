@@ -1,0 +1,42 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>All By MAC</title>
+    </head>
+    <body>
+		<h2> Showing {{ entries}} entries For {{ mac }} within the past {{ days }} days</h2>
+		
+		<table>
+			<tr>
+				<th>Date</th>
+				<th>Website Accessed</th>
+				<th>Source IP</th>
+				<th>Destination IP</th>
+				<th>Access Point</th>
+				<th>Download</th>
+				<th>Upload</th>
+			<tr>
+		{% for report in reports %}
+			<tr>
+				<td>{{report.date}}</td>
+				<td>{{report.site}}</td>
+				<td>{{report.source}}</td>
+				<td>{{report.destination}}</td>
+				<td>{{report.device}}</td>
+				<td>{{report.download}}</td>
+				<td>{{report.upload}}</td>
+			</tr>
+			
+			{% empty %}
+				<h1>No entries found for this MAC!</h1>
+			
+		{% endfor %}
+		</table>
+	</body>
+
+	
+</html>

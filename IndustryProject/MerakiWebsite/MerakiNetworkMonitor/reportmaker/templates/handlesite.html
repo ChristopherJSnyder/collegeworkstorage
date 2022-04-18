@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>Success!</title>
+    </head>
+    <body>
+	<h2>Showing all entries for {{ mac}} in the past {{days}} days</h2>
+	<table>
+	<tr>
+		<th>Website</th>
+		<th>Times Visited</th>
+	</tr>
+	{% for  key, value in listofsites %}
+	<tr>
+		<td>{{key}}</td>
+		<td>{{value}}</td>
+	</tr>
+	{% empty %}
+				<h1>No entries found for this MAC!</h1>
+	{% endfor %}
+	</table>
+	</body>
+
+	
+</html>

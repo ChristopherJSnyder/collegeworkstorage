@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>Report Homepage</title>
+    </head>
+    <body>
+{% block content %}
+    <h1>Paste all raw data to be added into the box below.</h1>
+    <form method="POST" class="RawForm" action = "handlereports">{% csrf_token %}
+		{{form.as_p}}
+    <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% endblock %}
+<a class="btn btn-primary" href="/" role="button">Return To Home</a>
+	</body>
+
+	
+</html>

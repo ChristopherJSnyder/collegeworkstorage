@@ -1,0 +1,14 @@
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.AssemblyInfoInputs.cache
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.AssemblyInfo.cs
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.deps.json
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.runtimeconfig.json
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.runtimeconfig.dev.json
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.dll
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.pdb
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.dll
+C:\Users\Chris\Desktop\Work\Programming 4\Assignment2\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.pdb

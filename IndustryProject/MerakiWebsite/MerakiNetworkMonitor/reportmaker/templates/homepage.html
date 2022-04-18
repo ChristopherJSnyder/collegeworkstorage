@@ -1,0 +1,32 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>Report Homepage</title>
+    </head>
+    <body>
+
+	
+		<h1>Report Tool</h1>
+		<p>Created By Christopher Snyder</p>
+		<br>
+		<br>
+		<a class="btn btn-primary btn-lg btn-block" href="choosereportinput" role="button">Add Reports</a>
+		<br>
+		<br>
+		<a class="btn btn-primary btn-lg btn-block" href="viewreports" role="button">Browse Reports</a>
+		<br>
+		<br>
+		<a class="btn btn-primary btn-lg btn-block" href="deletereports" role="button">Delete Old Reports</a>
+		<br>
+		<br>
+		<a class = "btn btn-primary btn-lg btn-block" href= "macnamesview" role = "button">View and Add MAC Nicknames</a>
+		<br>
+		<br>
+		<a class = "btn btn-primary btn-lg btn-block" href = "bydeviceusage" role = "button">View Device Usage</a>
+    </body>
+	
+</html>

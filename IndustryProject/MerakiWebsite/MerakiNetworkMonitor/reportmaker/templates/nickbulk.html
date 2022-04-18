@@ -1,0 +1,32 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>MAC Nicknames</title>
+    </head>
+    <body>
+	
+	<form method="POST" class="NicknameBulk"  action = "handlenickbulk">
+	<table>
+		<tr>
+			<th>MAC</th>
+			<th>Nickname</th>
+		<tr>
+	{% for field in form %}
+		<tr>
+			<td>{{field.label}}</td>
+			<td>{{field}}</td>
+		<tr>
+	{% endfor %}
+	</table>
+	<button type="submit" class="save btn btn-default">Save</button>
+	</form>
+	
+	<br>
+	</body>
+
+	
+</html>

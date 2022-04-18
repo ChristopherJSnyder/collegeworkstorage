@@ -1,0 +1,158 @@
+#topnavigation {
+
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	position: absolute;
+	left: 25%;
+	top: 50px;
+	font-size: 12;
+}
+
+#box {
+	background-color: white;
+	margin: auto;
+	width: 90%;
+	border-radius: 25px;
+}
+
+body {
+	background-color: #EEEEEE;
+	
+}
+
+#topheader {
+	padding-top: 10px;
+	position: relative;
+	height: 65px;
+	
+}
+#logo {
+	position: absolute;
+	left: 8px;
+	top: 25px;
+	
+
+	
+}
+
+
+#topnavigation nav > ul {
+	display:inline; /*Removes above and below space*/
+	list-style: none; /*remove bullet points*/
+	
+}
+#topnavigation nav > ul li {
+	display:inline; 
+	
+}
+	
+#topnavigation nav > ul li a {
+	text-decoration:none; 
+	line-height: 28px; 
+	padding: 0px 10px; 
+	display:inline-block;
+	color: #5B7991;
+	
+}
+
+
+#topnavigation nav li + li:before{
+    content: " | ";
+}
+
+#searchbar {
+	position: absolute;
+	left: 750px;
+	top: 0px;
+}
+
+#submit {
+	position: absolute;
+	left: 900px;
+	top: 0px;
+}
+
+#headerlogo p {
+	position: absolute;
+	top: 65px;
+	left: 100px;
+	color: white;
+	font-family: arial;
+	font-size: 45px;
+	letter-spacing: 10px;
+}
+
+#lowerheader p {
+	position: absolute;
+	top: 350px;
+	left: 1100px;
+	color: white;
+	font-family: arial;
+	font-style: italic;
+	font-size: 20px;
+	
+}
+
+#headerlogo img {
+	width: 100%;
+}
+
+#horizonalnavigation nav > ul {
+	display:inline; /*Removes above and below space*/
+	list-style: none; /*remove bullet points*/
+	
+	
+}
+#horizonalnavigation nav > ul li {
+	display:inline; 
+	
+}
+	
+#horizonalnavigation nav > ul li a {
+	text-decoration:none; 
+	line-height: 28px; 
+	padding: 0px 10px; 
+	display:inline-block;
+	
+	
+}
+
+
+#horizonalnavigation nav li + li:before{
+    content: " | ";
+}
+
+nav > ul {
+	display:inline; /*Removes above and below space*/
+	list-style: none; /*remove bullet points*/
+	
+}
+#horizonalnavigation nav > ul li {
+	display:inline; 
+	
+}
+	
+#horizonalnavigation nav > ul li a {
+	text-decoration:none; 
+	line-height: 28px; 
+	padding: 0px 10px; 
+	display:inline-block;
+
+	
+}
+
+#horizonalnavigation {
+	  background: img src = images/primaryMenuBackground no-repeat 50% 50% / cover;
+	
+}
+
+#horizonalnavigation img {
+	position: relative;
+	left: -40px;
+	height: 50px;
+	width: 200px;
+	z-index: 0;
+
+	
+}

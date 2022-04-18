@@ -1,0 +1,122 @@
+body {
+
+background-image: url(background.gif);
+}
+
+#nav ul {
+	 border: 1px solid #e7e7e7;
+    background-color: #000000;
+	font-weight: bold;
+	text-align: center;
+	
+}
+#nav ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+
+#nav ul li a:hover, #navi ul li a:focus {
+	color:#000000;
+	background-color: grey;
+}
+
+
+#nav ul li a {
+	
+	text-decoration: none;
+	color: gray;
+	padding: 0px 205px;
+}
+
+#topimage img {
+	border: 2px solid #000000;
+	border-radius: 8px;
+	position: relative;
+	bottom: 15px;
+}
+
+#topimage h2 {
+	position: relative;
+	top: -120px;
+	right: -210px;
+	color: gray;
+	text-shadow: 1px 1px gray;
+	font-size: 50px;
+	
+}
+
+#about {
+	border: 5px solid black;
+	background-color: gray;
+	border-radius: 8px;
+	font-size: 32px;
+	font-weight: italic;
+	position: relative;
+	top: -175px;
+	text-align: center;
+	font-family: "Lucida Console";
+	text-shadow: 0.5px 0.5px black;
+	
+}
+
+label {
+	color: black;
+	text-shadow: 1.5px 1.5px grey;
+	font-size: 20px;
+	text-decoration: underline;
+	text-decoration-color: black;
+	display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+	font-weight: bold;
+	margin-bottom: 30px 55px;
+	padding-bottom: 50px;
+}
+
+input, textarea, select {  
+
+  display: inline-block;
+  float: left;
+  margin-bottom: 50px 25px;
+  border: 2.5px solid black;
+ 
+}
+
+#emailerror {
+	
+	position: relative;
+	bottom: -45px;
+	right: -155px;
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	
+}
+
+#ordernoerror {
+	
+	position: relative;
+	bottom: -19px;
+	right: -50px;
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+}
+
+#messageerror {
+	
+	position: relative;
+	right: 350px;
+	bottom: -50px;
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+}

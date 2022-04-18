@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang = 'en'>
+<head>
+	<link rel="stylesheet" type="text/css" href="Assignment3.css" />
+</head>
+
+<body>
+<form id = "website">
+<fieldset id = "Personal" >
+<legend>Personal Information</legend>
+<label for="FullName">Name</label>
+<input id="Fullname" name="fullname" type="text" placeholder="First and Last Name" required autofocus />
+<label for="PhoneNum">Phone Number</label>
+<input id="PhoneNum" name="Phonenum" type="tel" placeholder="204-XXX-XXXX" required/>
+<label for="Email">Email Address</label>
+<input id="Email" name="Email" type="email" required />
+</fieldset>
+
+
+<fieldset id = "Survey">
+<legend> Please Answer Some Questions </legend>
+<label for = "cheesequestion"> How Do You Feel About the Ease of Access of Cheese in Your Area? </label>
+<p><textarea rows = "8" cols = "40"> </textarea></p>
+<label for = "coolimage"> Please provide the URL link to an image of a cat wearing a hat. Insufficently cute cats will result in termination. </label>
+<input id = "coolimage" name = "coolimage" type = "url" required />
+<label for "dropdown"> Which Career Interests You The Most? </label>
+
+<select>
+	<option value = "option1"> Cheese Taste Tester </option>
+	<option value = "option2"> Gum Removal Technician </option>
+	<option value = "option3"> Cutlery Sanitation Engineer </option>
+	<option value = "option4"> Living On Government Welfare  </option>
+</select>
+	
+</fieldset>
+
+
+<fieldset id = "Loyalty">
+<legend> How Likely Would You Betray Your Government For a Large Sum of Money? Check All That Apply. </legend>
+
+<input id="NotVeryRadio" name="NotVeryRadio" type="radio"/>
+<label for="NotVeryRadio">Why I Never!</label>
+
+
+<input id="MaybeVeryRadio" name="MaybeVeryRadio" type="radio"/>
+<label for="MaybeVeryRadio">Depends on the amount I guess...</label>
+
+
+<input id="Maybe" name="Maybe" type="radio"/>
+<label for="Maybe">Maybe..</label>
+
+
+<input id="Puppykicker" name="PuppyKicker" type="radio"/>
+<label for="PuppyKicker">Sorry, couldn't hear you over the sound of me kicking my 6th puppy today.</label>
+
+</fieldset>
+
+<fieldset id = "spambox">
+<label for="SpamBox">I agree to be spammed by a wide array of advertisers</label>
+<input id="BarneyBox" name="BarneyBox" type="checkbox" required />
+</fieldset>
+
+
+<fieldset id = "submission">
+<button type="submit">Send To NSA</button>
+<button type="reset">WAIT NO</button>
+</fieldset>
+</form>
+</body>
+</html>
+

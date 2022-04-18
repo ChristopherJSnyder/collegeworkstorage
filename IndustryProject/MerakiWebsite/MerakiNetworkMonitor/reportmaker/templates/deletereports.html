@@ -1,0 +1,20 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>Are You Sure?</title>
+    </head>
+    <body>
+	<div class="alert alert-danger" role="alert">
+		This will delete ALL report records currently in the system! However, any nicknames will be preserved for future use.
+	</div>
+	<form method="POST" class="DeleteReportsForm" action = "handledeletereports">{% csrf_token %}
+		{{form.as_p}}
+    <button type="submit" class="save btn btn-default">Delete All Reports</button>
+	</body>
+
+	
+</html>

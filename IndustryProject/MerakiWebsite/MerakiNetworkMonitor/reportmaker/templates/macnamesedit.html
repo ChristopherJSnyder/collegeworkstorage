@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+    <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+        <title>MAC Nicknames</title>
+    </head>
+    <body>
+
+	<form method="POST" class="Nickname" action = "/handlenick">{% csrf_token %}
+	<label> Enter desired nickname:</label>
+	{{form.nickname|safe}}
+	<br>
+	{{form.mac.as_hidden}}
+    <button type="submit" class="save btn btn-default">Save</button>
+	</body>
+
+	
+</html>

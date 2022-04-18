@@ -1,0 +1,68 @@
+header
+{
+	width:100%;
+	height:60px;
+	background: darkgrey;
+	border:1px black solid;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	box-shadow: 10px 10px 10px #FFFFFF;
+}
+
+
+#navigation {
+	background: #FF00FF;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF
+}
+
+
+nav > ul {
+	display:inline; /*Removes above and below space*/
+	list-style: none; /*remove bullet points*/
+	
+}
+nav > ul li {
+	display:inline; 
+	
+}
+	
+nav > ul li a {
+	text-decoration:none; 
+	line-height: 28px; 
+	padding: 0px 10px; 
+	display:inline-block;
+	
+}
+
+#navigation ul li a, #navi ul li a:visited {
+	text-decoration:none; 
+	line-height: 28px; 
+	padding: 0px 10px; 
+	display:inline-block;
+}
+
+#navigation ul li a:hover, #navi ul li a:focus {
+	color:#FF0000;
+	background-color:#00FF00;
+}
+
+#content {
+	background: grey;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	column-count: 2;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+	

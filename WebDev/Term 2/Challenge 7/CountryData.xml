@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<CountryData>
+
+ <USA>
+  <population>275,562,673</population>
+  <LifeExpectancy age="years">77.24</LifeExpectancy>
+  <GDP currency="USD">33,900</GDP>
+ </USA>
+
+ <Angola>
+  <population>10,145,267</population>
+  <LifeExpectancy age="years">38.31</LifeExpectancy>
+  <GDP currency="USD">1,030</GDP>
+ </Angola>
+
+ <Bosnia>
+  <population>3,835,777</population>
+  <LifeExpectancy age="years">71.49</LifeExpectancy>
+  <GDP currency="USD">1,770</GDP>
+ </Bosnia>
+
+</CountryData>
